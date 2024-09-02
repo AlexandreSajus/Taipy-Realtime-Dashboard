@@ -20,4 +20,4 @@ RUN pip install -r requirements.txt
 # Copy the application source code.
 COPY . .
 
-CMD ["taipy", "run", "--no-debug", "--no-reloader", "receiver.py", "-H", "0.0.0.0", "-P", "5000"]
+CMD ["taipy", "run", "--no-debug", "--no-reloader", "main.py", "-H", "0.0.0.0", "-P", "5000"]
